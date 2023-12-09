@@ -2,7 +2,11 @@
   import Step from "./Step.svelte";
 
   let steps = [
-    { name: "Django shopping app", icon: "fa-solid fa-cart-shopping" },
+    {
+      name: "Reacstagram",
+      icon: "fa-brands fa-instagram",
+      href: "https://reacstagram.com",
+    },
     { name: "Ultimate Todos", icon: "fa-solid fa-list-check" },
     { name: "Pokedex", icon: "fa-solid fa-diagram-project" },
   ];
@@ -84,11 +88,11 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          The Jonny Ramen Store is a merchandising store created with
+          Reacstagram is an Instagram clone created with
           <strong class="text-violet-400"
-            >Next.js Commerce.js Stripe & Node.js + Express.js</strong
+            >React, Chakra UI, and Firebase (Auth, Firestore, Storage)</strong
           >
-          Commerce.js is a product CMS and Stripe is used for all transaction handling.
+          This clone features a design similar to Instagram with many of the features.
         </p>
       </Step>
       <Step step={steps[1]}>
