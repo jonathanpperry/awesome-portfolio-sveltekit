@@ -8,8 +8,9 @@ const Step = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let steps = [
     {
-      name: "Django shopping app",
-      icon: "fa-solid fa-cart-shopping"
+      name: "Reacstagram",
+      icon: "fa-brands fa-instagram",
+      href: "https://reacstagram.com"
     },
     {
       name: "Ultimate Todos",
@@ -40,9 +41,9 @@ const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <span class="poppins text-violet-400" data-svelte-h="svelte-1g2scfk">Developer</span></h2> <p class="text-base sm:text-lg md:text-xl">My <span class="poppins text-violet-400" data-svelte-h="svelte-1xjnfsm">favorite tech</span> includes Javascript,
         Next.js or SvelteKit, TailwindCSS, Node.js + Express.js &amp; PostgreSQL or Firebase/Firestore!</p> <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="https://www.linkedin.com/in/jonathanpperry" target="_blank"><div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div> <h4 class="relative z-9" data-svelte-h="svelte-sc9lnl">Get in touch →</h4></a></div> <div class="relative shadow-2xl grid place-items-center"><img${add_attribute("src", "images/profile.png", 0)} alt="Profile image" class="object-cover z-[2] max-h-[70]"></div></section> <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24"><div class="flex flex-col gap-2 text-center"><h6 class="text-lg sm:text-lg md:text-2xl" data-svelte-h="svelte-u5puf2">A few of my creative endeavors.</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Curious to <span class="poppins text-violet-400" data-svelte-h="svelte-1ar2jvj">see</span> my work?</h3></div> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"><i class="fa-regular fa-circle-play"></i> <p data-svelte-h="svelte-1kfbkvj">Watch the video</p></a> <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">${validate_component(Step, "Step").$$render($$result, { step: steps[0] }, {}, {
     default: () => {
-      return `<p>The Jonny Ramen Store is a merchandising store created with
-          <strong class="text-violet-400" data-svelte-h="svelte-j8fa2z">Next.js Commerce.js Stripe &amp; Node.js + Express.js</strong>
-          Commerce.js is a product CMS and Stripe is used for all transaction handling.</p>`;
+      return `<p>Reacstagram is an Instagram clone created with
+          <strong class="text-violet-400" data-svelte-h="svelte-1d0ocvn">React, Chakra UI, and Firebase (Auth, Firestore, Storage)</strong>
+          This clone features a design similar to Instagram with many of the features.</p>`;
     }
   })} ${validate_component(Step, "Step").$$render($$result, { step: steps[1] }, {}, {
     default: () => {

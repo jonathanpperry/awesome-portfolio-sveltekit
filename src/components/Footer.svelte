@@ -38,5 +38,21 @@
         >
       </a>
     </p>
+    <p>
+      <b class="pr-2">LeetCode</b>
+      <a
+        href="https://leetcode.com/jonathanperry/"
+        target="_blank"
+        class="text-violet-400"
+      >
+        jonathanperry<sup
+          ><span class="text-xs scale-75 pl-0.5">
+            <i
+              class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
+            />
+          </span></sup
+        >
+      </a>
+    </p>
   </div>
 </footer>
