@@ -8,7 +8,11 @@
       href: "https://reacstagram.com",
     },
     { name: "Ultimate Todos", icon: "fa-solid fa-list-check" },
-    { name: "Pokedex", icon: "fa-solid fa-diagram-project" },
+    {
+      name: "Ionic Pokedex",
+      icon: "fa-solid fa-diagram-project",
+      href: "https://ionic-angular-pokedex.netlify.app",
+    },
   ];
 
   let benefits = [
