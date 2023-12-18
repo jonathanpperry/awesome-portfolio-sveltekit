@@ -7,10 +7,14 @@
       icon: "fa-brands fa-instagram",
       href: "https://reacstagram.com",
     },
-    { name: "Ultimate Todos", icon: "fa-solid fa-list-check" },
+    {
+      name: "Flowmazon",
+      icon: "fa-brands fa-amazon",
+      href: "https://nextjs-ecommerce-app-chi.vercel.app",
+    },
     {
       name: "Ionic Pokedex",
-      icon: "fa-solid fa-diagram-project",
+      icon: "fa-solid fa-spell-check",
       href: "https://ionic-angular-pokedex.netlify.app",
     },
   ];
@@ -101,15 +105,19 @@
       </Step>
       <Step step={steps[1]}>
         <p>
-          Todoist is a full-stack
-          <strong class="text-violet-400">React & Firebase/Firestore</strong> CRUD
-          application that allows a user to login, manage a tidy and efficacious
-          todo list, and persist this information across all devices.
+          Flowmazon is a full-stack
+          <strong class="text-violet-400">e-commerce site</strong> built with
+          <strong class="text-violet-400">
+            Next.js 14, MongoDB, DaisyUI, Next Auth, and Prisma ORM
+          </strong>
+          that allows a user to login, shop around and add items to their cart, and
+          implements merge of anonymous cart data with logged-in data after logging
+          in.
         </p>
       </Step>
       <Step step={steps[2]}>
         <p>
-          The Pokedex is a
+          The Ionic Pokedex is a
           <strong class="text-violet-400">Ionic Framework</strong> based web
           application hosted on
           <strong class="text-violet-400">Netlify</strong>, that consumes and
