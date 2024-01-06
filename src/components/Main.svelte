@@ -13,9 +13,9 @@
       href: "https://nextjs-ecommerce-app-chi.vercel.app",
     },
     {
-      name: "Ionic Pokedex",
-      icon: "fa-solid fa-spell-check",
-      href: "https://ionic-angular-pokedex.netlify.app",
+      name: "Vanilla JS Snake Game",
+      icon: "fa-solid fa-gamepad",
+      href: "https://jonnys-snake-game.netlify.app/",
     },
   ];
 
@@ -117,12 +117,9 @@
       </Step>
       <Step step={steps[2]}>
         <p>
-          The Ionic Pokedex is a
-          <strong class="text-violet-400">Ionic Framework</strong> based web
-          application hosted on
-          <strong class="text-violet-400">Netlify</strong>, that consumes and
-          caches the <strong class="text-violet-400">Pokemon API</strong> to display
-          all Pokemon information. Gotta catch em all!
+          The Snake Game is a
+          <strong class="text-violet-400">Vanilla HTML/CSS/Javascript</strong> video
+          game that resembles the snake game on older Windows computers.
         </p>
       </Step>
     </div>

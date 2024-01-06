@@ -13,12 +13,14 @@ const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       href: "https://reacstagram.com"
     },
     {
-      name: "Ultimate Todos",
-      icon: "fa-solid fa-list-check"
+      name: "Flowmazon",
+      icon: "fa-brands fa-amazon",
+      href: "https://nextjs-ecommerce-app-chi.vercel.app"
     },
     {
-      name: "Pokedex",
-      icon: "fa-solid fa-diagram-project"
+      name: "Ionic Pokedex",
+      icon: "fa-solid fa-spell-check",
+      href: "https://ionic-angular-pokedex.netlify.app"
     }
   ];
   let benefits = [
@@ -47,14 +49,16 @@ const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
   })} ${validate_component(Step, "Step").$$render($$result, { step: steps[1] }, {}, {
     default: () => {
-      return `<p>Todoist is a full-stack
-          <strong class="text-violet-400" data-svelte-h="svelte-1fi8lg7">React &amp; Firebase/Firestore</strong> CRUD
-          application that allows a user to login, manage a tidy and efficacious
-          todo list, and persist this information across all devices.</p>`;
+      return `<p>Flowmazon is a full-stack
+          <strong class="text-violet-400" data-svelte-h="svelte-1oni2w5">e-commerce site</strong> built with
+          <strong class="text-violet-400" data-svelte-h="svelte-o4r68w">Next.js 14, MongoDB, DaisyUI, Next Auth, and Prisma ORM</strong>
+          that allows a user to login, shop around and add items to their cart, and
+          implements merge of anonymous cart data with logged-in data after logging
+          in.</p>`;
     }
   })} ${validate_component(Step, "Step").$$render($$result, { step: steps[2] }, {}, {
     default: () => {
-      return `<p>The Pokedex is a
+      return `<p>The Snake Game is a
           <strong class="text-violet-400" data-svelte-h="svelte-1uxs1sb">Ionic Framework</strong> based web
           application hosted on
           <strong class="text-violet-400" data-svelte-h="svelte-16fzqy2">Netlify</strong>, that consumes and
