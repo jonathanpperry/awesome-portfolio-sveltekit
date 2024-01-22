@@ -3,9 +3,9 @@
 
   let steps = [
     {
-      name: "Reacstagram",
+      name: "Personal Blog App",
       icon: "fa-brands fa-instagram",
-      href: "https://reacstagram.com",
+      href: "https://jonnyramenblog.netlify.app",
     },
     {
       name: "Flowmazon",
@@ -13,9 +13,9 @@
       href: "https://nextjs-ecommerce-app-chi.vercel.app",
     },
     {
-      name: "Vanilla JS Snake Game",
-      icon: "fa-solid fa-gamepad",
-      href: "https://jonnys-snake-game.netlify.app/",
+      name: "Reacstagram",
+      icon: "fa-brands fa-instagram",
+      href: "https://reacstagram.com",
     },
   ];
 
@@ -96,11 +96,15 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Reacstagram is an Instagram clone created with
+          My <strong class="text-violet-400">personal blog</strong> was created
+          with
           <strong class="text-violet-400"
-            >React, Chakra UI, and Firebase (Auth, Firestore, Storage)</strong
+            >Next.js v13, Contentlayer, TailwindCSS</strong
           >
-          This clone features a design similar to Instagram with many of the features.
+          and stores views data per blog page in a back end using
+          <strong class="text-violet-400">Supabase.</strong>
+          Features responsive design, animations, SEO optimizations and an ability
+          to toggle between light/dark modes.
         </p>
       </Step>
       <Step step={steps[1]}>
@@ -117,9 +121,11 @@
       </Step>
       <Step step={steps[2]}>
         <p>
-          The Snake Game is a
-          <strong class="text-violet-400">Vanilla HTML/CSS/Javascript</strong> video
-          game that resembles the snake game on older Windows computers.
+          Reacstagram is an Instagram clone created with
+          <strong class="text-violet-400"
+            >React, Chakra UI, and Firebase (Auth, Firestore, Storage)</strong
+          >
+          This clone features a design similar to Instagram with many of the features.
         </p>
       </Step>
     </div>
