@@ -4,7 +4,7 @@
   let steps = [
     {
       name: "Personal Blog App",
-      icon: "fa-brands fa-instagram",
+      icon: "fa-solid fa-blog",
       href: "https://jonnyramenblog.netlify.app",
     },
     {
