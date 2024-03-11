@@ -17,6 +17,21 @@
       icon: "fa-brands fa-instagram",
       href: "https://reacstagram.com",
     },
+    {
+      name: "Ionic Angular Pokedex",
+      icon: "fa-solid fa-tablet",
+      href: "https://ionic-angular-pokedex.netlify.app",
+    },
+    {
+      name: "Jonny Ramen Weather",
+      icon: "fa-solid fa-sun",
+      href: "https://jonnyramenweather.netlify.app/",
+    },
+    {
+      name: "Next.js To-Do List",
+      icon: "fa-solid fa-spinner",
+      href: "https://google.com",
+    },
   ];
 
   let benefits = [
@@ -68,6 +83,7 @@
       </a>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
+      <!-- svelte-ignore a11y-img-redundant-alt -->
       <img
         src={"images/profile.png"}
         alt="Profile image"
@@ -126,6 +142,32 @@
             >React, Chakra UI, and Firebase (Auth, Firestore, Storage)</strong
           >
           This clone features a design similar to Instagram with many of the features.
+        </p>
+      </Step>
+      <Step step={steps[3]}>
+        <p>
+          The <strong class="text-violet-400">Ionic Angular Pokédex</strong> was
+          created with
+          <strong class="text-violet-400"
+            >Ionic Framework and hitting the Pokémon API</strong
+          >. Features dynamic fetching of data and a slide library to show
+          various images of each Pokémon.
+        </p>
+      </Step>
+      <Step step={steps[4]}>
+        <p>
+          A simple weather application built using
+          <strong class="text-violet-400"
+            >Next.js v14 and Jotai state management library</strong
+          >.
+        </p>
+      </Step>
+      <Step step={steps[5]}>
+        <p>
+          A work in progress, the To-Do Application will feature user
+          authentication and stores to-do data in a database back end using
+          <strong class="text-violet-400">MongoDB.</strong>
+          Features responsive design, animations, and more.
         </p>
       </Step>
     </div>

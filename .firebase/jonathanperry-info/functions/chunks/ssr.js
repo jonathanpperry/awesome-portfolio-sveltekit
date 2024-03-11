@@ -12,11 +12,6 @@ function run_all(fns) {
 function safe_not_equal(a, b) {
   return a != a ? b == b : a !== b || a && typeof a === "object" || typeof a === "function";
 }
-function validate_store(store, name) {
-  if (store != null && typeof store.subscribe !== "function") {
-    throw new Error(`'${name}' is not a store with a 'subscribe' method`);
-  }
-}
 function subscribe(store, ...callbacks) {
   if (store == null) {
     for (const callback of callbacks) {
@@ -132,9 +127,8 @@ export {
   create_ssr_component as c,
   escape as d,
   each as e,
-  validate_store as f,
+  subscribe as f,
   getContext as g,
-  subscribe as h,
   missing_component as m,
   noop as n,
   safe_not_equal as s,
