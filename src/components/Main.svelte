@@ -3,6 +3,11 @@
 
   let steps = [
     {
+      name: "2D Game Portfolio",
+      icon: "fa-solid fa-gamepad",
+      href: "https://jonathanpperry.github.io/portfolio/",
+    },
+    {
       name: "Personal Blog App",
       icon: "fa-solid fa-blog",
       href: "https://jonnyramenblog.netlify.app",
@@ -26,11 +31,6 @@
       name: "Jonny Ramen Weather",
       icon: "fa-solid fa-sun",
       href: "https://jonnyramenweather.netlify.app/",
-    },
-    {
-      name: "Next.js To-Do List",
-      icon: "fa-solid fa-spinner",
-      href: "https://google.com",
     },
   ];
 
@@ -112,6 +112,16 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
+          A portfolio site built using <strong class="text-violet-400">
+            Prisma.js
+          </strong>
+          to showcase portfolio and projects in a fun, interactive,
+          <strong class="text-violet-400">video game</strong>-like setting.
+        </p>
+      </Step>
+
+      <Step step={steps[1]}>
+        <p>
           My <strong class="text-violet-400">personal blog</strong> was created
           with
           <strong class="text-violet-400"
@@ -123,7 +133,7 @@
           to toggle between light/dark modes.
         </p>
       </Step>
-      <Step step={steps[1]}>
+      <Step step={steps[2]}>
         <p>
           Flowmazon is a full-stack
           <strong class="text-violet-400">e-commerce site</strong> built with
@@ -135,7 +145,7 @@
           in.
         </p>
       </Step>
-      <Step step={steps[2]}>
+      <Step step={steps[3]}>
         <p>
           Reacstagram is an Instagram clone created with
           <strong class="text-violet-400"
@@ -144,7 +154,7 @@
           This clone features a design similar to Instagram with many of the features.
         </p>
       </Step>
-      <Step step={steps[3]}>
+      <Step step={steps[4]}>
         <p>
           The <strong class="text-violet-400">Ionic Angular Pokédex</strong> was
           created with
@@ -154,20 +164,12 @@
           various images of each Pokémon.
         </p>
       </Step>
-      <Step step={steps[4]}>
+      <Step step={steps[5]}>
         <p>
           A simple weather application built using
           <strong class="text-violet-400"
             >Next.js v14 and Jotai state management library</strong
           >.
-        </p>
-      </Step>
-      <Step step={steps[5]}>
-        <p>
-          A work in progress, the To-Do Application will feature user
-          authentication and stores to-do data in a database back end using
-          <strong class="text-violet-400">MongoDB.</strong>
-          Features responsive design, animations, and more.
         </p>
       </Step>
     </div>
