@@ -13,9 +13,9 @@
       href: "https://jonnyramenblog.netlify.app",
     },
     {
-      name: "Flowmazon",
-      icon: "fa-brands fa-amazon",
-      href: "https://nextjs-ecommerce-app-chi.vercel.app",
+      name: "Jonny Ramen Google Photos",
+      icon: "fa-solid fa-photo-film",
+      href: "https://jonny-ramen-google-photos.vercel.app/",
     },
     {
       name: "Reacstagram",
@@ -135,14 +135,13 @@
       </Step>
       <Step step={steps[2]}>
         <p>
-          Flowmazon is a full-stack
-          <strong class="text-violet-400">e-commerce site</strong> built with
+          Google Photos clone is a full-stack
+          <strong class="text-violet-400">AI photos site</strong> built with
           <strong class="text-violet-400">
-            Next.js 14, MongoDB, DaisyUI, Next Auth, and Prisma ORM
+            Next.js 14, Cloudinary AI, Tanstack Query, and TailwindCSS
           </strong>
-          that allows a user to login, shop around and add items to their cart, and
-          implements merge of anonymous cart data with logged-in data after logging
-          in.
+          that allows a user to upload images of their choosing, and then use the
+          Cloudinary image processor to apply other effects to and then save the updated images. 
         </p>
       </Step>
       <Step step={steps[3]}>
