@@ -3,9 +3,9 @@
 
   let steps = [
     {
-      name: "2D Game Portfolio",
-      icon: "fa-solid fa-gamepad",
-      href: "https://jonathanpperry.github.io/portfolio/",
+      name: "Next-Gen AI Portfolio",
+      icon: "fa-solid fa-brain",
+      href: "https://jonathanperry.tech",
     },
     {
       name: "Personal Blog App",
@@ -112,11 +112,8 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          A portfolio site built using <strong class="text-violet-400">
-            Prisma.js
-          </strong>
-          to showcase portfolio and projects in a fun, interactive,
-          <strong class="text-violet-400">video game</strong>-like setting.
+          AI Portfolio built using
+          <strong class="text-violet-400"> Next.js 16 </strong>
         </p>
       </Step>
 
@@ -141,7 +138,8 @@
             Next.js 14, Cloudinary AI, Tanstack Query, and TailwindCSS
           </strong>
           that allows a user to upload images of their choosing, and then use the
-          Cloudinary image processor to apply other effects to and then save the updated images. 
+          Cloudinary image processor to apply other effects to and then save the
+          updated images.
         </p>
       </Step>
       <Step step={steps[3]}>
